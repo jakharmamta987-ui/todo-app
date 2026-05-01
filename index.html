@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>My TO Do App</h2>
+
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Enter Task..."/>
+            <button id="addBtn">Add</button>
+            
+            
+        </div>
+
+        <input type="text" id="searchInput" placeholder="search tasks">
+
+
+        <div class="filters">
+
+            <button onclick="filterTasks('all')">All</button>
+            <button onclick="filterTasks('pending')">Pending</button>
+            <button onclick="filterTasks('completed')">completed</button>
+
+
+        </div>
+
+        <div id="taskcounter"></div>
+
+        <u1 id="taskList"></u1>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
