@@ -14,4 +14,4 @@ A simple To-Do App built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## 🌐 Live Demo
-https://jakharamanta987-ui.github.io/todo-app/
+https://jakharmamta987-ui.github.io/todo-app/
